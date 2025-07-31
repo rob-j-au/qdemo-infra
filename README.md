@@ -1,4 +1,4 @@
-# Qdemo Infrastrucure
+# Qdemo Infrastructure
 
 #### Endpoint
 
