@@ -69,6 +69,13 @@ image:
 ```
 
 ```
+ingress:
+ annotations:
+   kubernetes.io/ingress.class: nginx
+
+...
+...
+
  hosts:
    - host: qdemo.k8s.aws.jennings.au
      paths:
