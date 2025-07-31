@@ -56,10 +56,10 @@ kubectl apply -f kubernetes/cert-manager/clusterissuer-prod.yaml
 cd kubernetes/helm
 
 # install
-helm install qdemo ./qdemo-app
+helm install --namespace qdemo qdemo ./qdemo-app
 
 # upgrade
-helm upgrade qdemo ./qdemo-app
+helm upgrade --namespace qdemo qdemo ./qdemo-app
 ```
 
 Helm Values
