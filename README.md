@@ -103,10 +103,10 @@ ingress:
 
 ### DNS Setup
 
-```
-aws.jennings.au Cloudflare NS delegation to AWS Route53 Zone
 
-*.k8s.aws.jennings.au Route53 Wildcard Alias record pointing to NGINX Ingress LoadBalancer's NLB
-```
+`aws.jennings.au` Cloudflare NS delegation to AWS Route53 Zone
 
-Given extra time the Route53 record would be in Terraform
+`*.k8s.aws.jennings.au` Route53 Wildcard Alias record pointing to NGINX Ingress LoadBalancer's NLB
+
+
+Given extra time the Route53 Alias record would be created with Terraform (needs to read the value of an NLB endpoint that NGINX Ingress Controller creates rather than an NLB Terraform creates)
