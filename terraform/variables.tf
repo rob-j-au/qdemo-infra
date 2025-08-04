@@ -17,3 +17,11 @@ variable "subnets" {
 variable "vpc_id" {
   type = string
 }
+
+variable "nginx_ingress_nlb_endpoint" {
+  type = string
+}
+
+variable "nginx_ingress_nlb_zone_id" {
+  type = string
+}
