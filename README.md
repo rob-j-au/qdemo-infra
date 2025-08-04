@@ -1,15 +1,15 @@
 # Qdemo Infrastructure
 
-#### Endpoint
+## Endpoint
 
 [https://qdemo.k8s.aws.jennings.au](https://qdemo.k8s.aws.jennings.au)
 
 
-### EKS
+## EKS
 
 `terraform/eks.tf`
 
-Create EKS cluster
+#### Create EKS cluster
 
 ```
 cd terraform
@@ -57,7 +57,11 @@ Production ClusterIssuer
 kubectl apply -f kubernetes/cert-manager/clusterissuer-prod.yaml
 ```
 
-### Helm app
+## Helm app
+
+Deploys: [https://hub.docker.com/r/robjau/qdemo](https://hub.docker.com/r/robjau/qdemo)
+
+Source: [https://github.com/rob-j-au/qdemo](https://github.com/rob-j-au/qdemo)
 
 ```
 cd kubernetes/helm
