@@ -25,3 +25,7 @@ variable "nginx_ingress_nlb_endpoint" {
 variable "nginx_ingress_nlb_zone_id" {
   type = string
 }
+
+variable "nginx_ingress_a_record" {
+  type = string
+}

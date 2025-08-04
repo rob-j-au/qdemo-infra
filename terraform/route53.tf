@@ -4,7 +4,7 @@ resource "aws_route53_zone" "main" {
 
 resource "aws_route53_record" "k8s_aws_wildcard" {
   zone_id = aws_route53_zone.main.zone_id
-  name    = "*.k8s.aws.jennings.au"
+  name    = var.nginx_ingress_a_record
   type    = "A"
   alias {
     name                   = var.nginx_ingress_nlb_endpoint
