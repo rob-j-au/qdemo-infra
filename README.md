@@ -59,7 +59,7 @@ kubectl apply -f kubernetes/cert-manager/clusterissuer-prod.yaml
 
 ## Helm app
 
-Deploys: [https://hub.docker.com/r/robjau/qdemo](https://hub.docker.com/r/robjau/qdemo)
+Image: [https://hub.docker.com/r/robjau/qdemo](https://hub.docker.com/r/robjau/qdemo)
 
 Source: [https://github.com/rob-j-au/qdemo](https://github.com/rob-j-au/qdemo)
 
