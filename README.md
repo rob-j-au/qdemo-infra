@@ -9,6 +9,13 @@
 
 `terraform/eks.tf`
 
+Create EKS cluster
+
+```
+cd terraform
+terraform apply
+```
+
 #### Kubeconfig
 
 `aws eks update-kubeconfig --name demo`
