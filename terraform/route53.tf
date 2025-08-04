@@ -12,7 +12,7 @@ resource "aws_route53_record" "k8s_aws_wildcard" {
     evaluate_target_health = true
   }
 
-} 
+}
 output "zone_id" {
   value = aws_route53_zone.main.zone_id
 }
