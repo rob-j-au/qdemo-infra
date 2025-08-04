@@ -51,7 +51,7 @@ helm install \
   --set crds.enabled=true
 ```
 
-Production ClusterIssuer
+LetsEncrypt Production ClusterIssuer
 
 ```
 kubectl apply -f kubernetes/cert-manager/clusterissuer-prod.yaml
