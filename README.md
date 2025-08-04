@@ -7,8 +7,7 @@
 
 ## EKS
 
-`terraform/eks.tf`
-
+[terraform/eks.tf](terraform/eks.tf)
 
 #### Kubeconfig
 
@@ -98,7 +97,7 @@ ingress:
 ### DNS Setup
 
 
-`terraform/route53.tf`
+[terraform/route53.tf](terraform/route53.tf)
 
 `aws.jennings.au` Cloudflare NS delegation to AWS Route53 Zone
 
